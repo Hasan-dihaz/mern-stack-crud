@@ -12,7 +12,7 @@ const CreateStudent = () => {
   // onSubmit handler
   const onSubmit = studentObject => {
     axios.post(
-'http://localhost:4000/students/create-student', 
+'http://localhost:4000/students/create-student',
     studentObject)
       .then(res => {
         if (res.status === 200){
