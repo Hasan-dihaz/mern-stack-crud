@@ -29,10 +29,10 @@ const CreateStudent = () => {
     
   // Return student form
   return(
-    <StudentForm initialValues={formValues} 
+    <StudentForm initialValues={formValues}
       onSubmit={onSubmit} 
       enableReinitialize>
-       Create Student 
+       Create Student
     </StudentForm>
   )
 }
